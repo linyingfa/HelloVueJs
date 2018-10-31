@@ -12,13 +12,13 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'HeaderId',
-      component: HeaderId
+      name: 'HelloWorld',
+      component: HelloWorld
     },
     {
       path: '/',
-      name: 'HelloWorld',
-      component: HelloWorld
+      name: 'HeaderId',
+      component: HeaderId
     }
   ]
 })
